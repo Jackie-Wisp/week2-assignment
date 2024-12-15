@@ -1,2 +1,14 @@
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
 
+
+body {
+    background-color: skyblue;
+}
+/* .thumbnailContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+
+} */
+
