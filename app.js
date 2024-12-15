@@ -18,7 +18,7 @@ function createThumbnails(imagesarray) {
             newImg.alt = imgitem.alt;
             newImg.className = "thumbnail-img";
             thumbnailContainer.appendChild(newImg);
-            newImg.addEventListener("click", handleClick);
+            // newImg.addEventListener("click", handleClick);
         }
     )
     }

@@ -3,12 +3,27 @@
 
 body {
     background-color: skyblue;
-}
-/* .thumbnailContainer {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    gap: 2em;
-
-} */
+}
+#thumbnailContainer {
+    display: flex;
+    flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 550px;
+        position: fixed;
+        bottom: 20px;
+        overflow: scroll;
+        gap: 2em;
+}
+.thumbnail-img{
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
 
