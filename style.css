@@ -5,25 +5,40 @@ body {
     background-color: skyblue;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;  
 }
 #thumbnailContainer {
     display: flex;
-    flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
+    flex-direction: row;
+        justify-content: flex-start;
         align-items: center;
-        height: 200px;
-        width: 550px;
+        width: 60%;
         position: fixed;
         bottom: 20px;
         overflow: scroll;
+        /* ^ Adds a scroll bar for when the images are overlowing from the container, allowing the container to keep its size and responsiveness */
         gap: 2em;
+        border: solid black 2px;
+        margin: 0%
+        
 }
 .thumbnail-img{
-    width: 200px;
+    width: 100px;
     height: auto;
     border: 2px solid black;
     border-radius: 5px;
     
 }
+@media (min-width: 600px) {
+    .thumbnail-img {
+        width: 300px
+
+    }
+
+}
+    
+
 
